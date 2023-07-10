@@ -1,0 +1,40 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root{
+--text-color: white;
+--heart-color: red;
+--bg-url: url(./assets/bg-mobile.jpg);
+}
+
+body {
+    background: var(--bg-url) no-repeat top center/cover;
+}
+
+body *{
+color: var(--text-color);
+}
+
+  /*efeito coração */
+
+.heart {
+    color: var(--heart-color);
+    font-size: 20px;
+    animation: heart-animation 2s infinite alternate;
+    
+}
+
+@keyframes heart-animation {
+     0% {
+    font-size: 20px;
+    }
+    50% {
+     font-size: 30px;
+    }
+    100% {
+     font-size: 20px;
+    }
+}
