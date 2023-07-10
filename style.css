@@ -20,6 +20,11 @@ color: var(--text-color);
 
   /*efeito coração */
 
+#profile img    {
+    border-radius: 50%;
+
+}
+
 .heart {
     color: var(--heart-color);
     font-size: 20px;
