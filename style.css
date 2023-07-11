@@ -16,14 +16,35 @@ body {
 
 body *{
 color: var(--text-color);
+font-family: 'Ysabeau SC', sans-serif;
+}
+
+#container {
+  width: 100%;
+  max-width: 588px;
+  border: 1px solid red;
+  margin: 56px auto 0px;
+  padding: 0 24px;
+}
+
+/*profile*/
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img    {
+  width: 112px;
+  border-radius: 50%;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 30px;
 }
 
   /*efeito coração */
-
-#profile img    {
-    border-radius: 50%;
-
-}
 
 .heart {
     color: var(--heart-color);
