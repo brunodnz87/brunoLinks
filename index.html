@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-Br" class="light">
 
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,11 +13,11 @@
 
 <body>
     <div id="container">
-        <div id="profile">
-            <img src="./assets/bruno.png" width="110" height="110" alt="Bruno Diniz">
+        <div id="profile"> 
+            <img class="rotate-animation" src="./assets/bruno.png" width="110" height="110" alt="Foto do Bruno Diniz com fundo azul">
             <p>@brunodnz87</p>
         </div>
-        <div>
+        <div id="switch" onclick="toggleMode()">
             <button></button>
             <span></span>
         </div>
@@ -29,15 +29,18 @@
                 <ion-icon name="logo-github"></ion-icon></a>
             <a href="https://www.instagram.com/bruno.dnz.87/" target="_blank">
                 <ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://twitter.com/bruno_dnz_87" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon></a>
             <a href="https://www.linkedin.com/in/brunodiniz87/" target="_blank">
                 <ion-icon name="logo-linkedin"></ion-icon></a>
         </div>
         <footer>
-            Feito com <span class="heart">❤</span> pelo Bruno Diniz
+            <span>Feito com</span> <span class="heart">❤</span> <span>pelo Bruno Diniz</span>
         </footer>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
